@@ -9,6 +9,7 @@
   color: #000000;
   font-family: 'Roboto';
   font-size: 16px;
+  flex: 1;
 }
 
 @media screen and (min-width: 768px) {
@@ -31,6 +32,16 @@
   margin-left: 16px;
   outline: none;
   cursor: pointer;
+}
+
+.edit-btn {
+  color: #046af8;
+  border: 1px solid #046af8;
+}
+
+.save-btn {
+  color: #15be09;
+  border: 1px solid #15be09;
 }
 
 @media screen and (min-width: 768px) {

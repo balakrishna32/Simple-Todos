@@ -1,4 +1,4 @@
-.simple-todos-app-container {
+.app-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,6 +42,29 @@
     margin-top: 32px;
     margin-bottom: 48px;
   }
+}
+
+.title-input-container input {
+  padding: 8px 12px;
+  min-width: 350px;
+  border-radius: 4px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  border: 1px solid gray;
+  margin-right: 15px;
+}
+
+.add-btn {
+  padding: 8px 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  background-color: #0b7dff;
+  cursor: pointer;
 }
 
 .todos-list {
